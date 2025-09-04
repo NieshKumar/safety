@@ -7,9 +7,9 @@ import FloatingChatBot from "../components/FloatingChatBot";
 
 export default function AlertsPage() {
     const [alerts, setAlerts] = useState([]);
-    const [filter, setFilter] = useState('all'); // 'all', 'critical', 'warning', 'info'
+    const [filter, setFilter] = useState('all'); 
 
-    // Mock alerts data - replace with real API calls
+   
     useEffect(() => {
         const mockAlerts = [
             {
@@ -27,7 +27,7 @@ export default function AlertsPage() {
                 type: 'warning',
                 title: 'Weather Advisory',
                 message: 'Heavy rainfall expected in your area. Flooding possible on low-lying roads.',
-                location: 'Paris, France',
+                location: 'Jhansi, India',
                 timestamp: new Date(Date.now() - 2 * 60 * 60 * 1000), // 2 hours ago
                 read: false,
                 priority: 'moderate'
@@ -199,7 +199,7 @@ export default function AlertsPage() {
                         )}
                     </div>
 
-                    {/* Quick Actions */}
+                   
                     {/* Quick Actions */}
                     <div className="quick-actions">
                         <h3>Quick Actions</h3>

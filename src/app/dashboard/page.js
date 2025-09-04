@@ -283,7 +283,7 @@ export default function DashboardPage() {
                                     <span className="icon">📍</span>
                                     <div>
                                         <div className="label">Location</div>
-                                        <div className="value">Paris, France</div>
+                                        <div className="value">Jhansi, India</div>
                                     </div>
                                 </div>
                                 <div className="status-item">
